@@ -6,7 +6,7 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            tcmorris.net
+title:            tcmorris
 tagline:          '#umbraco web developer'
 description:      'Ramblings of a web dev living in Bristol, UK'
 url:              http://tcmorris.net
@@ -15,7 +15,7 @@ author:
   name:           'Thomas Morris'
   url:            https://twitter.com/mozzy16
 
-paginate:         5
+paginate:         1
 
 # Custom vars
 version:          1.0.0
