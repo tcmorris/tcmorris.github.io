@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Continuous Delivery for .NET
+title: Continuous delivery for .NET
 ---
-
-# Continuous delivery for .NET #
 
 One very important factor of being a developer is deploying your code to the appropriate environment without anything failing. In order to do this, we should be automating as many tasks as possible to reduce human failure. Of course, some degree of human interaction should happen but by in large, we shouldn't need to do much once we have set up our deployment process.
 
