@@ -11,6 +11,9 @@ tagline:          'umbraco web developer'
 description:      'Ramblings of a web dev living in Bristol, UK'
 url:              http://tcmorris.net
 
+google:
+  analytics:	  'UA-60083725-1'
+
 meta:
   description:    'Thomas Morris is a web developer who specialises in Umbraco and ASP.NET'
   keywords:       'Web developer, Umbraco, ASP.NET'
