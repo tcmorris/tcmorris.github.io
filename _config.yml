@@ -22,7 +22,7 @@ author:
   name:           'Thomas Morris'
   url:            https://twitter.com/mozzy16
 
-paginate:         1
+paginate:         5
 
 # Custom vars
 version:          1.0.0
