@@ -3,15 +3,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
   <title>
-    {% if page.title %}
-      {{ page.title }} &middot; {{ site.title }}
+    {% if page.title != 'Home' %}
+      {{ page.title }} | {{ site.title }}
     {% else %}
-      {{ site.title }} &middot; {{ site.tagline }}
+      {{ site.title }} | {{ site.tagline }}
     {% endif %}
   </title>
   
-  <meta name="description" content="{{ meta.description }}" />
-  <meta name="author" content="{{ author.name }}">
+  <meta name="description" content="{{ site.meta.description }}" />
+  <meta name="author" content="{{ site.author.name }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- CSS -->
