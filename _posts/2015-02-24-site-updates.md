@@ -10,11 +10,13 @@ Hi there, this site has been left for quite some time so here's a list of some o
 - Changed from basic css files, to scss files
 - Fixed 404 page and added some extra info
 - Added meta data
-- Added microdata on article pages
-- Added tagline to article pages
-- Show tagline on homepage rather than entire article
+- Added microdata on posts
+- Added tagline to posts
+- Show tagline on homepage rather than entire post
 - Fix to pagination
 
-I'm hoping to post more soon and make small updates as I learn different aspects of Jekyll, Grunt and other front end tools.
+### Next steps
+
+I'm hoping do some more posts soon and make small updates to the site as I learn different aspects of Jekyll, Grunt and other front end tools.
 
 All of this is open source, so check out the [Github repo](https://github.com/tcmorris/tcmorris.github.io) and maybe you could learn something to.
