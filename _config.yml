@@ -23,7 +23,8 @@ meta:
   
 author:
   name:           'Thomas Morris'
-  url:            https://twitter.com/mozzy16
+  email:		  'hello@tcmorrs.net'
+  twitter:        mozzy16
 
 paginate:         5
 
