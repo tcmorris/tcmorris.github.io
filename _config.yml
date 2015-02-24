@@ -14,6 +14,9 @@ url:              http://tcmorris.net
 google:
   analytics:	  'UA-60083725-1'
 
+disqus:
+  username:		  'tcmorris'
+
 meta:
   description:    'Thomas Morris is a web developer who specialises in Umbraco and ASP.NET'
   keywords:       'Web developer, Umbraco, ASP.NET'

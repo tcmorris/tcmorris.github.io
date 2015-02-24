@@ -10,6 +10,7 @@ Hi there, this site has been left for quite some time so here's a list of some o
 - Changed from basic css files, to scss files
 - Fixed 404 page and added some extra info
 - Added meta data
+- Added disqus
 - Added microdata on posts
 - Added tagline to posts
 - Show tagline on homepage rather than entire post
