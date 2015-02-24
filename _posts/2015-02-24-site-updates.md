@@ -4,7 +4,7 @@ title: Site updates
 tagline: A quick overview of some of the changes to this site.
 ---
 
-Hi there, this site has been left for quite some time so here's a list of some of the updates the I've made to the site lately...
+Hi there, this site has been left for quite some time so here's a list of some of the updates that have been made to the site lately...
 
 - Added grunt to auto build locally and add performance updates
 - Changed from basic css files, to scss files
@@ -17,4 +17,4 @@ Hi there, this site has been left for quite some time so here's a list of some o
 
 I'm hoping to post more soon and make small updates as I learn different aspects of Jekyll, Grunt and other front end tools.
 
-All of this is open source, so check out the Github repo and maybe you could learn something to.
+All of this is open source, so check out the [Github repo](https://github.com/tcmorris/tcmorris.github.io) and maybe you could learn something to.
