@@ -2,6 +2,7 @@
 layout: post
 title: Courier investigation
 tagline: A look at Courier for Umbraco 7 including installation and basic usage guidelines.
+permalink: /blog/:title
 ---
 
 ### Installation

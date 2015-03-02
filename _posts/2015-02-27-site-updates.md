@@ -2,6 +2,7 @@
 layout: post
 title: Site updates
 tagline: A quick overview of some of the changes to this site.
+permalink: /blog/:title
 ---
 
 Hi there, this site has been left for quite some time so here's a list of some of the updates that have been made to the site lately...
