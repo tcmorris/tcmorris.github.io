@@ -2,7 +2,7 @@
 layout: post
 title: Site updates
 tagline: A quick overview of some of the changes to this site.
-permalink: /blog/:title
+permalink: /blog/site-updates
 ---
 
 Hi there, this site has been left for quite some time so here's a list of some of the updates that have been made to the site lately...
@@ -18,6 +18,7 @@ Hi there, this site has been left for quite some time so here's a list of some o
 - Added tagline to posts
 - Show tagline on homepage rather than entire post
 - Fix to pagination
+- Set permalinks for blog posts
 
 ### Next steps
 
