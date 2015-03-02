@@ -8,7 +8,7 @@ Hi there, this site has been left for quite some time so here's a list of some o
 
 - Added grunt to auto build locally and add performance updates
 - Changed from basic css files, to scss files
-- Fixed 404 page and added some extra info
+- Fixed [404 page](http://tcmorris.net/404) and added some extra info
 - Added meta data
 - Added google analytics
 - Added disqus to posts
