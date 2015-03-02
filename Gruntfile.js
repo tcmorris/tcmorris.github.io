@@ -4,6 +4,7 @@ module.exports = function(grunt){
 	    compass: {
 	        dist: {
 	            options: {
+	            	'sourcemap': true,
 	                'outputStyle': 'compressed',
 	                'sassDir': '_scss',
 	                'cssDir': 'public/css'
@@ -21,13 +22,13 @@ module.exports = function(grunt){
 		    }
 	    },
 	    watch: {
-		    //markup: {
-		    //  files: ['index.html','_includes/*.html','_posts/*'],
-		    //  tasks: ['jekyll'],
-		    //  options: {
-		    //    livereload: true
-		    //  }
-            //},
+		    markup: {
+		      files: ['index.html','_includes/*.html','_posts/*'],
+		      tasks: ['jekyll'],
+		      options: {
+		        livereload: true
+		      }
+            },
             css: {
                 files: ['_scss/{,*/}*.{scss,sass}'],
                 tasks: ['compass'],
@@ -40,7 +41,6 @@ module.exports = function(grunt){
 	 
     //load npm tasks
     grunt.loadNpmTasks('grunt-contrib-compass');
-    grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-jekyll');
 
