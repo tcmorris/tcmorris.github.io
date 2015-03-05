@@ -2,7 +2,7 @@
 layout: post
 title: Site updates
 tagline: A quick overview of some of the changes to this site.
-permalink: /blog/site-updates
+permalink: /blog/site-updates/
 ---
 
 Hi there, this site has been left for quite some time so here's a list of some of the updates that have been made to the site lately...
@@ -11,7 +11,7 @@ Hi there, this site has been left for quite some time so here's a list of some o
 - Changed from basic css files, to scss files
 - Generate source maps to help debug css
 - Fixed [404 page](http://tcmorris.net/404) and added some extra info
-- Added meta data
+- Added meta data inc. canonical tag
 - Added google analytics
 - Added disqus to posts
 - Added twitter details to posts

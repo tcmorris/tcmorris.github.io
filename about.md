@@ -15,6 +15,3 @@ Some (potentially) fun facts about the setup of this website include:
 * Using a theme called [Hyde](http://hyde.getpoole.com), which is built on [Poole](https://github.com/poole) developed by [@mdo](https://twitter.com/mdo).
 
 Feel free to [follow me on Twitter](https://twitter.com/mozzy16).
-
-Thanks for reading!
-Tom
