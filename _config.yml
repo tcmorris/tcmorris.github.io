@@ -10,7 +10,9 @@ title:            tcmorris
 tagline:          '.net web developer'
 description:      '.net web developer'
 url:              http://tcmorris.net
+paginate:         4
 
+# Custom vars
 google:
   analytics:	  'UA-60083725-1'
 
@@ -19,17 +21,13 @@ disqus:
 
 meta:
   description:    'Thomas Morris is a web developer who specialises in Umbraco and ASP.NET'
-  keywords:       'Web developer, Umbraco, ASP.NET'
-  
+  keywords:       'Web developer, umbraco, asp.net, c#, csharp, mvc'
+
 author:
   name:           'Thomas Morris'
-  email:		  'hello@tcmorrs.net'
+  email:		  'hello@tcmorris.net'
   twitter:        mozzy16
-
-paginate:         5
-
-# Custom vars
-version:          1.0.0
+  image: 		  /public/images/thomasmorris.jpeg
 
 github:
   repo:           https://github.com/tcmorris/tcmorris.github.io
