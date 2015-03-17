@@ -7,11 +7,11 @@ permalink: /blog/custom-domain-for-umbraco
 
 By default, content editors will be editing their content by appending umbraco to their domain. Sometimes you might not want your content editor to use that method and would like them to use an alternative URL. This could be for a few reasons...
 
-- You don't want Joe public trying to access the Umbraco back-office on your site. This is more security for obscurity and therefore isn't necessarily a perfect solution, but by changing the link to Umbraco, it does make it harder to figure out. If you set a hostname on your server to the URL you want to use and then point your hosts file to the server it is possible to prevent /umbraco from being publically accessible. i.e. it is only local to the server.
+- You don't want Joe public trying to access the Umbraco back-office on your site. This is more security for obscurity and therefore isn't necessarily a perfect solution, but by changing the link to Umbraco, it does partially lock it down. Note, if you set a hostname on your server to the URL you want to use and then point your hosts file to the server it is possible to prevent /umbraco from being publically accessible. i.e. it is only local to the server.
 - You want to create a different URL for your content editor to use when editing content. Perhaps it might be nicer for them to use or they only want the Umbraco side of things to be under SSL.
-- You have multiple sites within one Umbraco instance. This actually makes it a lot easier to group sites into one entity, otherwise each site will have their own Umbraco URL.
+- You have multiple sites within one Umbraco instance. This actually makes it a lot easier to group sites into one entity, otherwise each site will have their own Umbraco URL. One URL to remember, one URL to use.
 
-Below is an example of how to do this. We match the URL for Umbraco and then perform a redirect if it doesn't match our pattern. Note this part: **(?!Surface)** - this is important as it means that AJAX calls using Surface controllers still work.
+Below is an example of how to do this. We match the URL for Umbraco and then perform a redirect to our not found page if it doesn't match our pattern. Note this part: **(?!Surface)** - this is important as it means that AJAX calls using Surface controllers still work.
 
 {% gist 832845741d6abe6e09d0 %}
 
