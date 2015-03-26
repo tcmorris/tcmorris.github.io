@@ -3,6 +3,7 @@ layout: post
 title: Using a custom domain for accessing umbraco
 tagline: Changing how your content editors access Umbraco.
 permalink: /blog/custom-domain-for-umbraco
+tags: umbraco
 ---
 
 By default, content editors will be editing their content by appending umbraco to their domain. Sometimes you might not want your content editor to use that method and would like them to use an alternative URL. This could be for a few reasons...
