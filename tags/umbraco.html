@@ -1,0 +1,23 @@
+---
+layout: default
+title: Posts by tag - umbraco
+tagline: Posts relating to umbraco
+---
+
+<div class="page">
+  <h1 class="page-title">umbraco</h1>
+  <ul class="related-posts">
+    {% if site.tags.umbraco %}
+      {% for post in site.tags.umbraco %}
+        <li>
+          <h3>
+            <a href="{{ post.url }}">
+              {{ post.title }}
+              <small>{{ post.date | date_to_string }}</small>
+            </a>
+          </h3>
+        </li>
+      {% endfor %}
+    {% endif %}
+  </ul>
+</div>

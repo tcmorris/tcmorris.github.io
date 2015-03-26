@@ -1,0 +1,23 @@
+---
+layout: default
+title: Posts by tag - jekyll
+tagline: Posts relating to jekyll
+---
+
+<div class="page">
+  <h1 class="page-title">jekyll</h1>
+  <ul class="related-posts">
+    {% if site.tags.jekyll %}
+      {% for post in site.tags.jekyll %}
+        <li>
+          <h3>
+            <a href="{{ post.url }}">
+              {{ post.title }}
+              <small>{{ post.date | date_to_string }}</small>
+            </a>
+          </h3>
+        </li>
+      {% endfor %}
+    {% endif %}
+  </ul>
+</div>

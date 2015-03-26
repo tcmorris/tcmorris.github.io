@@ -1,0 +1,17 @@
+---
+layout: default
+title: Posts by tag
+tagline: Find posts relating to tags
+---
+
+<div class="page">
+  <h1 class="page-title">tags</h1>
+  <p class="lead">Use the links below to filter posts by tag.</p>
+  <ul class="related-posts">
+    {% for tag in site.tags %}
+      <li>
+        <h3><a href="/tags/{{ tag[0] }}/">{{ tag[0] }}</a></h3>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
