@@ -1,14 +1,10 @@
 ﻿<head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>
-    {% if page.title != 'Home' %}
-      {{ page.title }} | {{ site.title }}
-    {% else %}
-      {{ site.title }} | {{ site.tagline }}
-    {% endif %}
-  </title>
-  <meta name="description" content="{{ site.meta.description }}" />
+  {% capture title %}{% if page.title != 'Home' %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} | {{ site.tagline }}{% endif %}{% endcapture %}
+  <title>{{ title }}</title>
+  {% capture description %}{% if page.tagline %}{{ page.tagline }}{% else %} {{ site.meta.description }}{% endif %}{% endcapture %}
+  <meta name="description" content="{{ description }}" />
   <meta name="author" content="{{ site.author.name }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <!-- CSS -->
@@ -23,12 +19,10 @@
   <!-- SOCIAL -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{ site.author.twitter }}" />
-  <meta name="twitter:title" content="{{ page.title }}" />
-  <meta name="twitter:description" content="View more information on {{ site.url }}." />
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta name="twitter:description" content="{{ description }}" />
   <meta name="twitter:image" content="{{ site.url }}{{ site.author.image }}" />
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
 
-  {% if site.google.analytics %}
-    {% include analytics.html %}
-  {% endif %} 
+  {% if site.google.analytics %}{% include analytics.html %}{% endif %} 
 </head>
