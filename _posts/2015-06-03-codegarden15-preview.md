@@ -14,7 +14,7 @@ After looking at the [schedule](http://codegarden15.com/schedule), here are a fe
 
 **Umbraco Roadmap Panel**
 
-Find out about all that is coming up in future releases of Umbraco. Version 7 was a big step, but Umbraco is a product that keeps on moving. I'm really looking forward to see what is in store.
+Find out about all that is coming up in future releases of Umbraco. Version 7 was a big step, but Umbraco is a product that keeps on moving. There have also been some rather big changes within Microsoft and .NET itself and so it could be that we hear about how Umbraco will be looking to integrate with [vNext](https://github.com/aspnet/home). I'm really looking forward to see what is in store.
 
 **How to develop a killer package**
 
