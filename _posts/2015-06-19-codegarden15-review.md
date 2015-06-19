@@ -17,14 +17,14 @@ If you hadn't already heard, here are the major announcements:
 - ASP.NET Identity including support for oAuth so that you can login to the back office with your Facebook or Google account for example.
 - Load balancing has been updated to work much better with scaling
 - [Our Umbraco](https://our.umbraco.org/) has been given a complete overhaul
-- New REST API for Content, Media, Members, and Relations using the HAL format
-- Content type editor changes within the back office  
+- New [REST API](https://www.nuget.org/packages/UmbracoCms.RestApi/) for Content, Media, Members, and Relations using the HAL format. Here's a bit of reading around HAL: [http://stateless.co/hal_specification.html](http://stateless.co/hal_specification.html)
+- Content type editor changes within the back office making all those document types a joy to edit 
 
 I think one of the main things to take away from this is that Umbraco want to be able to iterate in a much faster and open manner, releasing earlier versions for testing and review with the community. So, the REST API and Content type editor are examples of this. 
 
 ### Sessions and open space
 
-In my [preview](http://tcmorris.net//blog/codegarden15-preview/) I noted some of the sessions which took my interest. As it turned out, there were some great sessions although I felt the urge for some more in-depth talks with more of an emphasis on code. The last day in particular was what I found the most interesting and useful for me. The idea is that the schedule and topics are defined by the people attending. Each person suggests a topic of interest and people go along and discuss where the future of Umbraco lies. Being able to talk directly and in an open manner with others who share similar issues and thoughts was a decent way to provoke ideas and knowledge for the direction of Umbraco and it's community. It wasn't just code... there were also topics around quality of life, communication channels and the future of Codegarden. 
+In my [preview](http://tcmorris.net/blog/codegarden15-preview/) I noted some of the sessions which took my interest. As it turned out, there were some great sessions although I felt the urge for some more in-depth talks with more of an emphasis on code. The last day in particular was what I found the most interesting and useful for me. The idea is that the schedule and topics are defined by the people attending. Each person suggests a topic of interest and people go along and discuss where the future of Umbraco lies. Being able to talk directly and in an open manner with others who share similar issues and thoughts was a decent way to provoke ideas and knowledge for the direction of Umbraco and it's community. It wasn't just code... there were also topics around quality of life, communication channels and the future of Codegarden. 
 
 ### Social
 
