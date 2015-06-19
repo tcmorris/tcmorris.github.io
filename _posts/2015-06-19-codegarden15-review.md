@@ -22,7 +22,7 @@ If you hadn't already heard, here are the major announcements:
 
 I think one of the main things to take away from this is that Umbraco want to be able to iterate in a much faster and open manner, releasing earlier versions for testing and review with the community. So, the REST API and Content type editor are examples of this. 
 
-### Sessions
+### Sessions and open space
 
 In my [preview](http://tcmorris.net//blog/codegarden15-preview/) I noted some of the sessions which took my interest. As it turned out, there were some great sessions although I felt the urge for some more in-depth talks with more of an emphasis on code. The last day in particular was what I found the most interesting and useful for me. The idea is that the schedule and topics are defined by the people attending. Each person suggests a topic of interest and people go along and discuss where the future of Umbraco lies. Being able to talk directly and in an open manner with others who share similar issues and thoughts was a decent way to provoke ideas and knowledge for the direction of Umbraco and it's community. It wasn't just code... there were also topics around quality of life, communication channels and the future of Codegarden. 
 
@@ -37,7 +37,7 @@ This year, there was a march through Copenhagen to the meatpacking district wher
 Next year Codegarden will be moving to a new location, and I'm hoping that I'll be able to join you all for more Umbraco goodness. Until then, I intend to get much more involved with the community and start giving back. Following on from the open space at Codegarden around what you would like to see Umbraco achieve in the next 12 months, here are a few that I've come up with for myself.
 
 - I have already logged a number of issues re: Our Umbraco and they have been fixed very quickly (kudos on that), it is a simple process but helps shape things to how you might want them. It's also handy to find some bugs and make Umbraco aware.
-- Attend and present at local events such as umBristol. Presenting is still quite a new concept to me and something which I struggle getting to grips with, I'm sure as a throw myself more into these kind of situations I'll become more comfortable. Hopefully I can show some cool things.
+- Attend and present at local events such as [umBristol](http://www.meetup.com/umBristol/). Presenting is still quite a new concept to me and something which I struggle getting to grips with, I'm sure as I throw myself more into these kind of situations I'll become more comfortable. 
 - Kickstart some kind of annual event in the South West. There has been a number of people interested in this, it would be awesome if we could make this happen!
 - Start creating some packages! Not just for the sake of it, but there are times when we as developers work on a project and it would be good to share some of the more useful custom implementations we have done.
 - Write an article for the totally awesome [Skrift.io](http://skrift.io/).
