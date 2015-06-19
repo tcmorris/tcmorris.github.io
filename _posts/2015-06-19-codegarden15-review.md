@@ -32,11 +32,14 @@ Part of what adds to the fun of Codegarden is that it is a 3 day event. Evenings
 
 This year, there was a march through Copenhagen to the meatpacking district where we were able to enjoy the clear night sky with a few drinks and good company. Umbraco bingo was as crazy as I thought it might be and the package competition had a nice comic twist to it.
 
+<img src="/public/images/nyhavn_copenhagen.jpg" title="Nyhavn" width="100%" />
+	
 ### Until next year
 
 Next year Codegarden will be moving to a new location, and I'm hoping that I'll be able to join you all for more Umbraco goodness. Until then, I intend to get much more involved with the community and start giving back. Following on from the open space at Codegarden around what you would like to see Umbraco achieve in the next 12 months, here are a few that I've come up with for myself.
 
 - I have already logged a number of issues re: Our Umbraco and they have been fixed very quickly (kudos on that), it is a simple process but helps shape things to how you might want them. It's also handy to find some bugs and make Umbraco aware.
+- Submit some pull requests and help fix bugs / add new features. #1 : [http://issues.umbraco.org/issue/U4-6562](http://issues.umbraco.org/issue/U4-6562)
 - Attend and present at local events such as [umBristol](http://www.meetup.com/umBristol/). Presenting is still quite a new concept to me and something which I struggle getting to grips with, I'm sure as I throw myself more into these kind of situations I'll become more comfortable. 
 - Kickstart some kind of annual event in the South West. There has been a number of people interested in this, it would be awesome if we could make this happen!
 - Start creating some packages! Not just for the sake of it, but there are times when we as developers work on a project and it would be good to share some of the more useful custom implementations we have done.
