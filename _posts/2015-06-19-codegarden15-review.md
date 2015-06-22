@@ -3,6 +3,7 @@ layout: post
 title: Umbraco Codegarden review and the future
 tagline: The highlights from the Umbraco conference and the next 12 months.
 permalink: /blog/codegarden15-review-and-the-future/
+image: /public/images/nyhavn_copenhagen.jpg
 tags: umbraco
 ---
 

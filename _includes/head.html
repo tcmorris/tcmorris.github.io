@@ -16,13 +16,14 @@
   <!-- RSS -->
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  {% capture image %}{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.author.image }}{% endif %}{% endcapture %}
   <!-- SOCIAL -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="{% if page.image %}summary_large_image{% else %}summary{% endif %}" />
   <meta name="twitter:site" content="@{{ site.author.twitter }}" />
   <meta name="twitter:title" content="{{ title }}" />
   <meta name="twitter:description" content="{{ description }}" />
-  <meta name="twitter:image" content="{{ site.url }}{{ site.author.image }}" />
+  <meta name="twitter:image" content="{{ image }}" />
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
-
+  {% if page.image %}<meta name="twitter:creator" content="@{{ site.author.twitter }}" />{% endif %}
   {% if site.google.analytics %}{% include analytics.html %}{% endif %} 
 </head>
