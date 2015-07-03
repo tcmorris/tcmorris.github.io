@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Continuous delivery for .NET
-tagline: A look at using Team City and Octopus Deploy to package up and deploy applications.
+tagline: A look at using TeamCity and Octopus Deploy to package up and deploy applications.
 permalink: /blog/continuous-delivery-for-dotnet/
 tags: teamcity octopusdeploy dotnet
 ---
@@ -32,7 +32,7 @@ Below is the basic overview of steps required in set up...
 3. Install [Octopus Server](http://docs.octopusdeploy.com/display/OD/Installing+Octopus) on build server (one time only)
 4. Create servers for project (one time only for each project)
 5. Install [Octopus Tentacle](http://docs.octopusdeploy.com/display/OD/Installing+Tentacles) on required servers (one time only for each server)
-6. Install [OctoPack](http://docs.octopusdeploy.com/display/OD/Using+OctoPack) in project via nuget (one time only for each project)
+6. Install [OctoPack](http://docs.octopusdeploy.com/display/OD/Using+OctoPack) in project via NuGet (one time only for each project)
  
 As shown, a lot of these tasks you will not need to revisit and once completed, will allow you to deploy without the need for manual intervention. 
 
@@ -43,14 +43,14 @@ Used to build the solution, perform tests and create an artifact for deployment.
 
 1. Checkout repository and build solution (run OctoPack)
 2. Perform tests and check code coverage
-3. Publish package to Octopus nuget server
+3. Publish package to Octopus NuGet server
 4. Create Octopus release (trigger Octopus Deploy)
 
 **Octopus Deploy**
 
 Used to deploy an artifact to a given environment, as well as setting up a website in IIS and updating variables for different SQL connections. This all happens on the server we are deploying to via a secure connection.
 
-1. Grab nuget package
+1. Grab NuGet package
 2. Create website in IIS
 3. Deploy files to website folder
 4. Update variables / apply transforms
@@ -60,9 +60,9 @@ When a release is created, Octopus Deploy will keep this indefinitely unless you
 
 **Why use both?**
 
-It is true that you could use Team City to deploy to each environment and perform configurations for you. However, this is reliant on Web Deploy being installed on the server you wish to deploy to. This is not a requirement for Octopus Deploy, which uses the idea of tentacles to open up a communication between the build server and the web server. This has several [security enhancements](http://docs.octopusdeploy.com/pages/viewpage.action?pageId=360622) and is generally easier to configure. You could also get Octopus Deploy to set up a site in IIS or perform Powershell tasks for you, something Team City and other build platforms are not built for. 
+It is true that you could use TeamCity to deploy to each environment and perform configurations for you. However, this is reliant on Web Deploy being installed on the server you wish to deploy to. This is not a requirement for Octopus Deploy, which uses the idea of tentacles to open up a communication between the build server and the web server. This has several [security enhancements](http://docs.octopusdeploy.com/pages/viewpage.action?pageId=360622) and is generally easier to configure. You could also get Octopus Deploy to set up a site in IIS or perform Powershell tasks for you, something TeamCity and other build platforms are not built for. 
 
-All in all, it is about using what is built for the task at hand. Team City can be used for building the code, running the tests and creating a single release package. Octopus Deploy can then be used to deploy this nuget package wherever you want and ensure that the configuration is correct for the environment, even cleaning up files in the process.
+All in all, it is about using what is built for the task at hand. TeamCity can be used for building the code, running the tests and creating a single release package. Octopus Deploy can then be used to deploy this NuGet package wherever you want and ensure that the configuration is correct for the environment, even cleaning up files in the process.
 
 If you would like to read more, there is a [blog post](http://octopusdeploy.com/blog/octopus-vs-build-server) detailing this approach, which explains why Octopus Deploy was created.
 
@@ -80,6 +80,6 @@ In your project you would need the following **transforms**...
 - Web.UAT.config
 - Web.Production.config
 
-These will get run automatically when uploaded to the web server by Octopus Deploy. There are a couple of things to take note of, however. Ensure that the transform matches the environment name in Octopus Deploy and make sure that the files are included in the nuget package. For more notes on this, check the [documentation](http://docs.octopusdeploy.com/display/OD/Configuration+files).
+These will get run automatically when uploaded to the web server by Octopus Deploy. There are a couple of things to take note of, however. Ensure that the transform matches the environment name in Octopus Deploy and make sure that the files are included in the NuGet package. For more notes on this, check the [documentation](http://docs.octopusdeploy.com/display/OD/Configuration+files).
 
 Octopus Deploy also has this idea of **variables** that can be set within the Octopus Portal (admin area). This means that you can define your variables and specify which environment these will apply to. As long as you have these turned on for your project, they will overwrite the name/value pairs within your config files (not just web.config). There is also the added benefit of being able to define variable sets and inherit these on a project. One such example, could be a set of logging options that you only enable for UAT and Production, but you tend to do this on every project. With a variable set, you can ensure they are included with little configuration. See the [documentation](http://docs.octopusdeploy.com/display/OD/Variables) for more examples.
