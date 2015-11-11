@@ -1,12 +1,23 @@
 ﻿<head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   {% capture title %}{% if page.title != 'Home' %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} | {{ site.tagline }}{% endif %}{% endcapture %}
   <title>{{ title }}</title>
   {% capture description %}{% if page.tagline %}{{ page.tagline }}{% else %} {{ site.meta.description }}{% endif %}{% endcapture %}
   <meta name="description" content="{{ description }}" />
   <meta name="author" content="{{ site.author.name }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <!-- SOCIAL -->
+  {% capture image %}{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.author.image }}{% endif %}{% endcapture %}
+  <meta name="twitter:card" content="{% if page.image %}summary_large_image{% else %}summary{% endif %}" />
+  <meta name="twitter:site" content="@{{ site.author.twitter }}" />
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta name="twitter:description" content="{{ description }}" />
+  <meta name="twitter:image" content="{{ image }}" />
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+  {% if page.image %}<meta name="twitter:creator" content="@{{ site.author.twitter }}" />{% endif %}
+  <link rel="publisher" href="https://plus.google.com/103654360130207659246">
+  <link rel="me" href="http://twitter.com/{{ site.author.twitter }}">
   <!-- CSS -->
   <link rel="stylesheet" href="/public/css/site.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
@@ -16,14 +27,5 @@
   <!-- RSS -->
   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-  {% capture image %}{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.author.image }}{% endif %}{% endcapture %}
-  <!-- SOCIAL -->
-  <meta name="twitter:card" content="{% if page.image %}summary_large_image{% else %}summary{% endif %}" />
-  <meta name="twitter:site" content="@{{ site.author.twitter }}" />
-  <meta name="twitter:title" content="{{ title }}" />
-  <meta name="twitter:description" content="{{ description }}" />
-  <meta name="twitter:image" content="{{ image }}" />
-  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
-  {% if page.image %}<meta name="twitter:creator" content="@{{ site.author.twitter }}" />{% endif %}
   {% if site.google.analytics %}{% include analytics.html %}{% endif %} 
 </head>
