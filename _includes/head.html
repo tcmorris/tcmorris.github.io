@@ -2,7 +2,7 @@
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% capture title %}{% if page.title != 'Home' %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} | {{ site.tagline }}{% endif %}{% endcapture %}
+  {% capture title %}{% if page.title != 'Home' %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }} - {{ site.tagline }}{% endif %}{% endcapture %}
   <title>{{ title }}</title>
   {% capture description %}{% if page.tagline %}{{ page.tagline }}{% else %} {{ site.meta.description }}{% endif %}{% endcapture %}
   <meta name="description" content="{{ description }}" />
