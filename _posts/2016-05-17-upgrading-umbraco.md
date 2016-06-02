@@ -8,7 +8,9 @@ tags: umbraco
 
 During a recent project, I was tasked with upgrading a site from v4 of Umbraco to the latest and greatest. There are a few reasons for this and it doesn't come without it's challenges, but I think the end result is definitely worth it.
 
+<sub>
 Note: For reference, I am talking mainly around upgrading an existing implementation of Umbraco and not migrating to another instance. Also, specifically around major releases, since patch updates rarely cause any issues and where possible you should always keep up to date if you can.
+</sub>
 
 ### Why Upgrade?
 

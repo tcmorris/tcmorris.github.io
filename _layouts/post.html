@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 
 <div class="post" itemscope itemtype="http://schema.org/Article">
@@ -8,7 +7,7 @@ comments: true
   <span class="post-date" itemprop="datePublished">{{ page.date | date_to_string }}</span>
   {{ content }}
   {% if site.author.twitter %}{% include twitter.html %}{% endif %} 
-  {% if page.comments %}{% include disqus.html %}{% endif %}
+  {% include disqus.html %}
 </div>
 <div class="related">
   <h2>Related Posts</h2>
