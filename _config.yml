@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         redcarpet
-pygments:         true
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -14,10 +14,10 @@ paginate:         4
 
 # Custom vars
 google:
-  analytics:	  'UA-60083725-1'
+  analytics:	    'UA-60083725-1'
 
 disqus:
-  username:		  'tcmorris'
+  username:		    'tcmorris'
 
 meta:
   description:    'Thomas Morris is a web developer who specialises in Umbraco and ASP.NET'
@@ -25,9 +25,9 @@ meta:
 
 author:
   name:           'Thomas Morris'
-  email:		  'hello@tcmorris.net'
+  email:		      'hello@tcmorris.net'
   twitter:        mozzy16
-  image: 		  /public/images/thomasmorris.jpeg
+  image: 		      /public/images/thomasmorris.jpeg
 
 github:
   repo:           https://github.com/tcmorris/tcmorris.github.io
