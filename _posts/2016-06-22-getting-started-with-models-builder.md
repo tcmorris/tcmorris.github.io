@@ -16,7 +16,7 @@ I realise that there is some documentation and posts on this already, but this i
 
 In order to get Models Builder working, there is one key web.config update that you need to do.
 
-```
+```xml
 <add key="Umbraco.ModelsBuilder.Enable" value="true" />
 <add key="Umbraco.ModelsBuilder.ModelsMode" value="PureLive" />
 ```
@@ -27,7 +27,7 @@ If you set the first one to false, then it simply doesn't do anything and your s
 
 This is the default option with Umbraco and is designed as an easy way to get started. You shouldn't have to do anything clever and you will have strongly typed models in your views. Except that, this doesn't come with intellisense and you can't use them anywhere else apart from your views.
 
-<img src="/public/images/models_builder_purelive.jpg" title="Models Builder - PureLive" width="100%" />
+<img src="/public/images/models_builder_purelive.jpg" title="Models Builder - PureLive" />
 
 > The main point here is that it's really easy to edit your templates and all of this can be done from within Umbraco without the need for an application restart.
 
