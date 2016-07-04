@@ -26,11 +26,11 @@ If you set the first one to false, then it simply doesn't do anything and your s
 
 ### PureLive
 
-This is the default option with Umbraco and is designed as an easy way to get started. You shouldn't have to do anything clever and you will have strongly typed models in your views. Except that, this doesn't come with intellisense and you can't use them anywhere else apart from your views.
+This is the default option with Umbraco and is designed as an easy way to get started. You shouldn't have to do anything clever and you will have strongly typed models in your views. Except that, this doesn't come with intellisense and you can't use them anywhere else apart from your views. This is all possible via some in memory compilation, at runtime.
 
 <img src="/public/images/models_builder_purelive.jpg" title="Models Builder - PureLive" />
 
-> The main point here is that it's really easy to edit your templates and all of this can be done from within Umbraco without the need for an application restart.
+> The main point here is that it's really easy to edit your content types and templates from within Umbraco without the need for an application restart.
 
 ### Dll Models
 
@@ -46,9 +46,9 @@ This option generates the models within ~/App_Data/Models, but they aren't added
 
 ### API Models
 
-This one is a little different in that it doesn't generate the models in the Umbraco website. You decide the location of where they are generated and then reference so that they can be used within your website project. It also relies on the Visual Studio extension so that it can connect to your Umbraco instance. Other than that, it should work pretty much the same as Dll and AppData modes.
+This one is a little different in that it doesn't generate the models in the Umbraco website. You decide the location of where they are generated and then reference so that they can be used within your website project. It also relies on a Visual Studio extension and NuGet package (Umbraco.ModelsBuilder.Api) so that it can connect to your Umbraco instance. This means that it is up to you to update your models whenever a change is made to the content types. You probably don't want to generate models in the Umbraco website anymore either so it is advisable to set `Umbraco.ModelsBuilder.ModelsMode` to `Nothing` when using this method.
 
-> This is probably useful if you normally have a separate project for all your controllers, models, etc.
+> This is probably useful if you normally have a separate project for all your controllers, models, custom code, etc.
 
 ### What to use?
 
@@ -57,4 +57,5 @@ At this point in time, I'm thinking the option which is going to get used by mys
 #### References
 
 - [zpqrtbnk: PureLive Models Introduction](http://www.zpqrtbnk.net/posts/purelive-models-introduction)
+- [zpqrtbnk: Beyond PureLive](http://www.zpqrtbnk.net/posts/beyond-purelive)
 - [Github: Builder Modes](https://github.com/zpqrtbnk/Zbu.ModelsBuilder/wiki/Builder-Modes)
