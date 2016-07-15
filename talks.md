@@ -12,6 +12,7 @@ Sometimes I share my thoughts with others. Here's a collection of some of the ta
 
 A rundown of some of the reasons for upgrading Umbraco and the challenges faced.
 
+- Event: [The London Umbraco Monthly Meetup - Post CodeGarden 16 Special](http://www.meetup.com/The-London-Umbraco-Meetup/events/231674268/)
 - Event: [umBristol Talks - June 2016](http://www.meetup.com/umBristol/events/230457961/)
 - Slides: [http://slides.com/tcmorris/upgrading-umbraco](http://slides.com/tcmorris/upgrading-umbraco)
 
