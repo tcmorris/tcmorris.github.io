@@ -31,3 +31,7 @@ author:
 
 github:
   repo:           https://github.com/tcmorris/tcmorris.github.io
+
+umbraco:
+  logo:           /public/images/umbraco_badge.jpg
+  link:           https://umbraco.com/certified-partners/find-a-certified-developer/details?id=6bb58bc7-772d-4d71-99da-b924cb232066
