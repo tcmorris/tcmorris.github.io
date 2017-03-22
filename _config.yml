@@ -9,7 +9,8 @@ permalink:        pretty
 title:            tcmorris
 tagline:          '.net web developer'
 description:      '.net web developer'
-url:              http://tcmorris.net
+url:              https://tcmorris.net
+enforce_ssl:      tcmorris.net
 paginate:         4
 
 # Custom vars
