@@ -10,7 +10,9 @@ It's more than likely that you will have already heard about Docker, but what ex
 
 ### Downloading Docker
 
-Docker is available in two editions: Community Edition (CE) and Enterprise Edition (EE). Docker CE is available for Mac, Windows and Linux distros. I'm going to be talking about the Windows version in this article, so grab the stable version of Docker for Windows from here: https://store.docker.com/editions/community/docker-ce-desktop-windows
+Docker is available in two editions: Community Edition (CE) and Enterprise Edition (EE). Docker CE is available for Mac, Windows and Linux distros. I'm going to be talking about the Windows version in this article, so grab the stable version of Docker for Windows from here: 
+
+[https://store.docker.com/editions/community/docker-ce-desktop-windows](https://store.docker.com/editions/community/docker-ce-desktop-windows)
 
 Docker uses Windows-native Hyper-V virtualisation, so if you haven't enabled this feature it will prompt you to enable this and restart. Once that is done, you'll notice that Docker is running in your taskbar. A quick click on 'About Docker' and you should see confirmation of the current version.
 
@@ -18,7 +20,7 @@ Docker uses Windows-native Hyper-V virtualisation, so if you haven't enabled thi
 
 To interact with Docker, you can use the `docker` commands in a terminal such as Powershell. Here's how to run the simple Hello World example.
 
-```
+```PowerShell
 PS C:\Users\tmorris> docker run hello-world
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world

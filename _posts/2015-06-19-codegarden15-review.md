@@ -33,8 +33,8 @@ Part of what adds to the fun of Codegarden is that it is a 3 day event. Evenings
 
 This year, there was a march through Copenhagen to the meatpacking district where we were able to enjoy the clear night sky with a few drinks and good company. Umbraco bingo was as crazy as I thought it might be and the package competition had a nice comic twist to it.
 
-<img src="/public/images/nyhavn_copenhagen.jpg" title="Nyhavn" width="100%" />
-	
+![Nyhavn](/public/images/nyhavn_copenhagen.jpg)
+
 ### Until next year
 
 Next year Codegarden will be moving to a new location, and I'm hoping that I'll be able to join you all for more Umbraco goodness. Until then, I intend to get much more involved with the community and start giving back. Following on from the open space at Codegarden around what you would like to see Umbraco achieve in the next 12 months, here are a few that I've come up with for myself.
