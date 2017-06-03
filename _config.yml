@@ -12,6 +12,7 @@ description:      '.net web developer'
 url:              https://tcmorris.net
 enforce_ssl:      tcmorris.net
 paginate:         4
+version:          1.0.0
 
 # Custom vars
 google:
