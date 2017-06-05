@@ -86,4 +86,5 @@ Docker is gaining momentum amongst the dev community. I've given a quick overvie
 - [Docker: What is Docker](https://www.docker.com/what-docker)
 - [Docker: Getting started](https://docs.docker.com/docker-for-windows/)
 - [Docker: Overview](https://docs.docker.com/engine/docker-overview/)
+- [Microsoft: Using .NET and Docker together](https://blogs.msdn.microsoft.com/dotnet/2017/05/25/using-net-and-docker-together/)
 - [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines)
