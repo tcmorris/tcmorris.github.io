@@ -1,18 +1,24 @@
-# Dependencies
+# Build settings
+github:           [metadata]
+repository:       tcmorris/tcmorris.github.io
 markdown:         kramdown
 highlighter:      rouge
-
-# Permalinks
+paginate:         4
 permalink:        pretty
+exclude:          ["README.md", "Gemfile.lock", "Gemfile"]
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jemoji
 
-# Setup
+# Basic info
 title:            tcmorris
 tagline:          '.net web developer'
 description:      '.net web developer'
 url:              https://tcmorris.net
 enforce_ssl:      tcmorris.net
-paginate:         4
-version:          1.0.0
+version:          1.1.0
 
 # Custom vars
 google:
@@ -30,9 +36,6 @@ author:
   email:		      'hello@tcmorris.net'
   twitter:        mozzy16
   image: 		      /public/images/thomasmorris.jpeg
-
-github:
-  repo:           https://github.com/tcmorris/tcmorris.github.io
 
 umbraco:
   logo:           /public/images/umbraco_badge.jpg
