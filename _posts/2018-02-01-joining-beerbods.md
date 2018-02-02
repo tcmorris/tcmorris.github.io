@@ -5,9 +5,9 @@ tagline: I'll be joining the team at BeerBods.
 permalink: /blog/joining-beerbods/
 ---
 
-As of 12th Feb, I will be the newest member of the beer subscription company, [BeerBods](https://beerbods.co.uk/) and will be taking up the role of CTO.
+As of 12th Feb, I will be the newest member of the beer subscription company, [BeerBods](https://beerbods.co.uk/) and will be taking up the role of CTO / Head Geek.
 
-That sounds great, but what does it mean I hear you ask? Well, I'll be looking at their current website offering, managing the infrastructure, building out new functionality and looking at ways to introduce tech in all aspects of the business. The focus will be how can BeerBods become better at what they do, and how to grow as a company. There are a number of projects on the horizon and lots of great ideas, it'll be my task to understand and evaluate how these can come to fruition and be integrated from a tech point of view. 
+That sounds great, but what does it mean I hear you ask? Well, I'll be looking at their current website offering, giving it a refresh and building out new functionality. In terms of infrastructure and integrations, I'll be looking at ways to introduce tech in all aspects of the business. The focus will be on how BeerBods can become better, and how to grow as a company. There are a number of projects on the horizon and lots of great ideas, it'll be my task to understand and evaluate how these can come to fruition and be integrated from a tech point of view. 
 
 It's probably worth rewinding for a second, to mention a little more about BeerBods and how they got started. Back in 2011, Matt started having beer tastings in his shed. A year later and an idea about drinking better beer using the web as a platform formed. A simple website to launch and [#beerbods](https://twitter.com/search?q=beerbods) was born on Twitter, every Thursday at 9pm you can enjoy a beer (each individual has the same beer) and talk about it online. Shortly after, it managed to become a fully fledged business and the orders were coming in. The social element and the stories behind what you are drinking is a core aspect of the business.
 
