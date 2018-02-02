@@ -5,11 +5,11 @@ title: About
 
 Hello.
 
-I am a Bristol based web developer who specialises in [Umbraco]({{ site.umbraco.link }}) and ASP.NET. I moved to Bristol in 2013 and haven't looked back since, it is such a vibrant and brilliant city. I work for a company called [Zone](https://www.zonedigital.com/uk/) who are based in Bristol / London and they are doing some [really great stuff](https://www.zonedigital.com/uk/work/) in the world of digital.
+I am a Bristol based web developer who specialises in [Umbraco]({{ site.umbraco.link }}), Episerver and ASP.NET. I currently work for a company called [Zone](https://www.zonedigital.com/uk/), named as one of the best digital agencies in the UK. I will soon be joining [BeerBods](https://beerbods.co.uk/), a beer club and subscription service.
 
-Before that I lived in Cheltenham and this is very much where my story with the present day web began. I mention present day since I remember the days of 56k dialup and when a website was mostly just a text feed; hoping that somebody wouldn't ring the home phone and interupt your session. I was of course fascinated with how this technology might grow up further and decided that a degree in Computer Science was the right path for me.
+I previously lived in Cheltenham and this is very much where my story with the present day web began. I mention present day since I remember the days of 56k dialup and when a website was mostly just a text feed; hoping that somebody wouldn't ring the home phone and interupt your session. I was of course fascinated with how this technology might grow up further and decided that a degree in Computer Science was the right path for me.
 
-During that time I have been fortunate to work with clients such as Travelex, Swinton Insurance, Barratt Homes, Prostate Cancer UK, RSPB, British Cycling and Sky.
+During that time I have been fortunate to work with clients such as Travelex, Greene King, BMW Group, Swinton, RSPB, British Cycling and Sky to name a few.
 
 ## Setup
 
