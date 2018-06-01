@@ -1,0 +1,28 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: layout
+  name: layout
+  default: post
+  config:
+    required: true
+- type: text
+  label: title
+  name: title
+  config:
+    required: true
+- type: text
+  name: tagline
+  label: tagline
+  config:
+    required: true
+- type: text
+  label: permalink
+  name: permalink
+  config:
+    required: true
+- type: tag_list
+  name: tags
+  label: tags
