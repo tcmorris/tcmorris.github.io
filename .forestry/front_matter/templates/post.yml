@@ -26,3 +26,5 @@ fields:
 - type: tag_list
   name: tags
   label: tags
+pages:
+- _posts/using-modelsbuilder-in-a-project.md
