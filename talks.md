@@ -6,6 +6,15 @@ tagline: A collection of some of the talks that Thomas Morris has done across th
 
 Sometimes I share my thoughts with others. Here's a collection of some of the talks that I have done across the years. I'm fairly new to this game, but topics that interest me include .NET, Umbraco, Web Development and Process. Feel free to [get in touch](/about/).
 
+## 2018
+
+### Some things about coding and stuff
+
+Catchy name ain't it. I decided to share some best practices and guidance to my fellow devs.
+
+- Event: [umBristol Talks - April 2018](https://www.meetup.com/umBristol/events/249416362/)
+- Slides: [Google Doc](https://docs.google.com/presentation/d/1NR4gtvrow1LK4n17WAVz5NrPp2L60sfchnWvSUVN9Mo/edit?usp=sharing)
+
 ## 2016
 
 ### Upgrading Umbraco
