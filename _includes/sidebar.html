@@ -17,6 +17,7 @@
           {% endif %}
         {% endif %}
       {% endfor %}
+      <li class="sidebar-nav-item{% if page.url == '/archive/' %} active{% endif %}"><a href="/archive/">All posts</a></li>
       <li class="sidebar-nav-item{% if page.url == '/tags/' %} active{% endif %}"><a href="/tags/">Posts by tag</a></li>
     </ul>
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
