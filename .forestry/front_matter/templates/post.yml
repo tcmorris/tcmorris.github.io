@@ -1,4 +1,5 @@
 ---
+label: Post
 hide_body: false
 is_partial: false
 fields:
@@ -27,4 +28,5 @@ fields:
   name: tags
   label: tags
 pages:
+- folder-test.md
 - _posts/2018-06-03-using-modelsbuilder-in-a-project.md
